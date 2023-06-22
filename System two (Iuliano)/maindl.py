@@ -11,9 +11,9 @@ from FeedforwardNN import FeedforwardNN
 from AutoEncoder import AutoEncoder
 
 # Fare attenzione al file di training selezionato quando si usa autoencoder
-train = r'C:\Users\rober\Desktop\Università\Magistrale\Data science\Homework4\hw4Data\TRAIN_AE.csv'
-validation = r'C:\Users\rober\Desktop\Università\Magistrale\Data science\Homework4\hw4Data\VALIDATION.csv'
-test = r'C:\Users\rober\Desktop\Università\Magistrale\Data science\Homework4\hw4Data\TEST.csv'
+train = r'.\Data\TRAIN_AE.csv'
+validation = r'.\Data\VALIDATION.csv'
+test = r'.\Data\TEST.csv'
 
 # Operazione di codifica
 x_train, y_train, l_train, x_val, y_val, l_val, x_test, y_test, l_test = transformData( train, validation, test )
