@@ -1,4 +1,4 @@
-# PythonNeuralNets
+# Neural network in Python
  These are two simple models of autoencoders and FFNN. The data provided (derived from
 CIC-IDS2017) can be used to train and test models for intrusion detection purposes.
 
